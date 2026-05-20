@@ -2,7 +2,7 @@ name: Update NSE Stocks to Google Sheet
 
 on:
   schedule:
-   # Cron runs at 14:45 UTC, which is 8:15 PM IST (India time)
+    # Cron runs at 14:45 UTC, which is 8:15 PM IST (India time)
     - cron: '45 14 * * 1-5'
   workflow_dispatch:
 
